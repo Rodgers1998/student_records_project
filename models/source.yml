@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: student_records_db  # Change this to your actual database name
+    schema: public  # Change this to your actual schema
+    tables:
+      - name: student_records
+        description: Raw student records data
