@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 WITH subject_list AS (
     SELECT
         student_id,

@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 SELECT
     a.student_id,
     a.total_score,
